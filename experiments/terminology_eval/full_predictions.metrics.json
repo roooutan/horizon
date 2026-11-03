@@ -1,0 +1,38 @@
+{
+  "evaluated_pairs": 624,
+  "selected": 624,
+  "models": {
+    "cs": {
+      "bleu_ko_mecab": 26.7069,
+      "chrf": 35.0033,
+      "terms": {
+        "KEEP": {
+          "correct": 34,
+          "total": 36,
+          "rate": 0.9444
+        },
+        "TRANSLATE": {
+          "correct": 26,
+          "total": 30,
+          "rate": 0.8667
+        }
+      }
+    },
+    "term": {
+      "bleu_ko_mecab": 26.617,
+      "chrf": 35.0575,
+      "terms": {
+        "KEEP": {
+          "correct": 34,
+          "total": 36,
+          "rate": 0.9444
+        },
+        "TRANSLATE": {
+          "correct": 26,
+          "total": 30,
+          "rate": 0.8667
+        }
+      }
+    }
+  }
+}

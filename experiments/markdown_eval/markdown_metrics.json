@@ -1,0 +1,134 @@
+{
+  "benchmark": "synthetic_markdown_preservation_pilot",
+  "description": "Fixed 36 synthetic Markdown documents; identical explicit Markdown-preservation prompts for both models.",
+  "warning": "Structural-marker proxy, not translation quality nor complete Markdown parser validation. Audit failures manually.",
+  "selected": 36,
+  "paired_scorable": 36,
+  "scored_opportunities_per_model": 75,
+  "models": {
+    "cs": {
+      "feature_checks": 75,
+      "correct_checks": 74,
+      "feature_match_rate": 0.9867,
+      "by_feature": {
+        "blockquote_depths": {
+          "n": 2,
+          "correct": 2,
+          "rate": 1.0
+        },
+        "bold_spans": {
+          "n": 1,
+          "correct": 1,
+          "rate": 1.0
+        },
+        "fenced_code": {
+          "n": 6,
+          "correct": 6,
+          "rate": 1.0
+        },
+        "footnote_ids": {
+          "n": 2,
+          "correct": 2,
+          "rate": 1.0
+        },
+        "headings": {
+          "n": 36,
+          "correct": 36,
+          "rate": 1.0
+        },
+        "inline_code": {
+          "n": 6,
+          "correct": 6,
+          "rate": 1.0
+        },
+        "italic_spans": {
+          "n": 1,
+          "correct": 1,
+          "rate": 1.0
+        },
+        "link_urls": {
+          "n": 3,
+          "correct": 3,
+          "rate": 1.0
+        },
+        "list_structure": {
+          "n": 6,
+          "correct": 6,
+          "rate": 1.0
+        },
+        "math_expressions": {
+          "n": 6,
+          "correct": 5,
+          "rate": 0.8333
+        },
+        "table_shape": {
+          "n": 6,
+          "correct": 6,
+          "rate": 1.0
+        }
+      }
+    },
+    "term": {
+      "feature_checks": 75,
+      "correct_checks": 74,
+      "feature_match_rate": 0.9867,
+      "by_feature": {
+        "blockquote_depths": {
+          "n": 2,
+          "correct": 2,
+          "rate": 1.0
+        },
+        "bold_spans": {
+          "n": 1,
+          "correct": 1,
+          "rate": 1.0
+        },
+        "fenced_code": {
+          "n": 6,
+          "correct": 6,
+          "rate": 1.0
+        },
+        "footnote_ids": {
+          "n": 2,
+          "correct": 2,
+          "rate": 1.0
+        },
+        "headings": {
+          "n": 36,
+          "correct": 36,
+          "rate": 1.0
+        },
+        "inline_code": {
+          "n": 6,
+          "correct": 6,
+          "rate": 1.0
+        },
+        "italic_spans": {
+          "n": 1,
+          "correct": 1,
+          "rate": 1.0
+        },
+        "link_urls": {
+          "n": 3,
+          "correct": 3,
+          "rate": 1.0
+        },
+        "list_structure": {
+          "n": 6,
+          "correct": 6,
+          "rate": 1.0
+        },
+        "math_expressions": {
+          "n": 6,
+          "correct": 5,
+          "rate": 0.8333
+        },
+        "table_shape": {
+          "n": 6,
+          "correct": 6,
+          "rate": 1.0
+        }
+      }
+    }
+  }
+}

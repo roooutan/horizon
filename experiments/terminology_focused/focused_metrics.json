@@ -1,0 +1,85 @@
+{
+  "method": "controlled_synthetic_glossary_adherence",
+  "important": "One synthetic context per glossary term; not translation quality or BLEU; manually audit edge cases.",
+  "total_saved": 190,
+  "paired_scorable": 190,
+  "by_condition": {
+    "plain": {
+      "KEEP": {
+        "n": 26,
+        "cs_correct": 18,
+        "cs_rate": 0.6923,
+        "term_correct": 18,
+        "term_rate": 0.6923,
+        "term_minus_cs_percentage_points": 0.0,
+        "term_only_correct": 1,
+        "cs_only_correct": 1,
+        "both_correct": 17,
+        "both_wrong": 7
+      },
+      "TRANSLATE": {
+        "n": 69,
+        "cs_correct": 47,
+        "cs_rate": 0.6812,
+        "term_correct": 44,
+        "term_rate": 0.6377,
+        "term_minus_cs_percentage_points": -4.35,
+        "term_only_correct": 3,
+        "cs_only_correct": 6,
+        "both_correct": 41,
+        "both_wrong": 19
+      },
+      "ALL": {
+        "n": 95,
+        "cs_correct": 65,
+        "cs_rate": 0.6842,
+        "term_correct": 62,
+        "term_rate": 0.6526,
+        "term_minus_cs_percentage_points": -3.16,
+        "term_only_correct": 4,
+        "cs_only_correct": 7,
+        "both_correct": 58,
+        "both_wrong": 26
+      }
+    },
+    "glossary": {
+      "KEEP": {
+        "n": 26,
+        "cs_correct": 19,
+        "cs_rate": 0.7308,
+        "term_correct": 20,
+        "term_rate": 0.7692,
+        "term_minus_cs_percentage_points": 3.85,
+        "term_only_correct": 1,
+        "cs_only_correct": 0,
+        "both_correct": 19,
+        "both_wrong": 6
+      },
+      "TRANSLATE": {
+        "n": 69,
+        "cs_correct": 69,
+        "cs_rate": 1.0,
+        "term_correct": 69,
+        "term_rate": 1.0,
+        "term_minus_cs_percentage_points": 0.0,
+        "term_only_correct": 0,
+        "cs_only_correct": 0,
+        "both_correct": 69,
+        "both_wrong": 0
+      },
+      "ALL": {
+        "n": 95,
+        "cs_correct": 88,
+        "cs_rate": 0.9263,
+        "term_correct": 89,
+        "term_rate": 0.9368,
+        "term_minus_cs_percentage_points": 1.05,
+        "term_only_correct": 1,
+        "cs_only_correct": 0,
+        "both_correct": 88,
+        "both_wrong": 6
+      }
+    }
+  },
+  "unscored": 0
+}
